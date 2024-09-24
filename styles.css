@@ -1,13 +1,14 @@
 h1{
-	font-size: 24px
-	color: #38B2AC
-	}
+	font-size: 24px;
+	color: #38B2AC;
+}
 h2{
-	font-size: 21px
-	color: #5A67D8
-	}
+	font-size: 21px;
+	color: #5A67D8;
+}
 p{
-	font-size: 18px
-	}
-#main h2{
-	<h2>Autumn Charle. I am interested in web development because I have some interest in design, and also web dev seems fun!</h2>
+	font-size: 18px;
+}
+main h2::after{
+	content: ", I am interested in web development because I have some interest in design, and also web dev seems fun!";
+}
